@@ -86,6 +86,11 @@ protected:
      */
     SettingInterface(const ValueType& value);
 
+		/**
+     * Default virtual destructor.
+     */
+		virtual ~SettingInterface() = default;
+
     /**
      * Notifies observers of setting new value.
      *
